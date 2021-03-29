@@ -42,5 +42,79 @@ Go语言傻瓜指南（主要参考Go语言中文网）
 	引用类型
 		指针, slice, map, chan 接口
 
-当前连接
-	https://github.com/unknwon/the-way-to-go_ZH_CN/blob/master/eBook/05.0.md
+	当前连接
+	https://github.com/unknwon/the-way-to-go_ZH_CN/blob/master/eBook/07.1.md
+	环境变量
+	https://github.com/unknwon/the-way-to-go_ZH_CN/blob/master/eBook/02.2.md
+	在 Linux 上安装 Go
+	https://github.com/unknwon/the-way-to-go_ZH_CN/blob/master/eBook/02.3.md
+	在 Windows 上安装 Go
+	https://github.com/unknwon/the-way-to-go_ZH_CN/blob/master/eBook/02.5.md
+	安装目录清单
+	https://github.com/unknwon/the-way-to-go_ZH_CN/blob/master/eBook/02.6.md
+	生成代码文档
+	https://github.com/unknwon/the-way-to-go_ZH_CN/blob/master/eBook/03.6.md
+	与其它语言进行交互
+	https://github.com/unknwon/the-way-to-go_ZH_CN/blob/master/eBook/03.9.md
+	变量
+	https://github.com/unknwon/the-way-to-go_ZH_CN/blob/master/eBook/04.4.md
+	基本类型和运算符
+	https://github.com/unknwon/the-way-to-go_ZH_CN/blob/master/eBook/04.5.md
+	字符串
+	https://github.com/unknwon/the-way-to-go_ZH_CN/blob/master/eBook/04.6.md
+	strings 和 strconv 包
+	https://github.com/unknwon/the-way-to-go_ZH_CN/blob/master/eBook/04.7.md
+	时间和日期
+	https://github.com/unknwon/the-way-to-go_ZH_CN/blob/master/eBook/04.8.md
+	指针
+	https://github.com/unknwon/the-way-to-go_ZH_CN/blob/master/eBook/04.9.md
+	数组与切片
+	https://github.com/unknwon/the-way-to-go_ZH_CN/blob/master/eBook/07.0.md
+	MAP
+	https://github.com/unknwon/the-way-to-go_ZH_CN/blob/master/eBook/08.0.md
+	结构（struct）与方法（method）
+	https://github.com/unknwon/the-way-to-go_ZH_CN/blob/master/eBook/10.0.md
+	接口（interface）与反射（reflection）
+	https://github.com/unknwon/the-way-to-go_ZH_CN/blob/master/eBook/11.0.md
+	文件读写
+	https://github.com/unknwon/the-way-to-go_ZH_CN/blob/master/eBook/12.2.md
+	JSON 数据格式
+	https://github.com/unknwon/the-way-to-go_ZH_CN/blob/master/eBook/12.9.md
+	XML 数据格式
+	https://github.com/unknwon/the-way-to-go_ZH_CN/blob/master/eBook/12.10.md
+	用 Gob 传输数据
+	https://github.com/unknwon/the-way-to-go_ZH_CN/blob/master/eBook/12.11.md
+	Go 中的密码学
+	https://github.com/unknwon/the-way-to-go_ZH_CN/blob/master/eBook/12.12.md
+	错误处理与测试
+	https://github.com/unknwon/the-way-to-go_ZH_CN/blob/master/eBook/13.0.md
+	启动外部命令和程序
+	https://github.com/unknwon/the-way-to-go_ZH_CN/blob/master/eBook/13.6.md
+	Go 中的单元测试和基准测试
+	https://github.com/unknwon/the-way-to-go_ZH_CN/blob/master/eBook/13.7.md
+	性能调试：分析并优化 Go 程序
+	https://github.com/unknwon/the-way-to-go_ZH_CN/blob/master/eBook/13.10.md
+	协程（goroutine）与通道（channel）
+	https://github.com/unknwon/the-way-to-go_ZH_CN/blob/master/eBook/14.0.md
+	对Go协程进行基准测试
+	https://github.com/unknwon/the-way-to-go_ZH_CN/blob/master/eBook/14.16.md
+	使用通道安全顺序化并发访问对象
+	https://github.com/unknwon/the-way-to-go_ZH_CN/blob/master/eBook/14.17.md
+	tcp 服务器
+	https://github.com/unknwon/the-way-to-go_ZH_CN/blob/master/eBook/15.1.md
+	web 服务器
+	https://github.com/unknwon/the-way-to-go_ZH_CN/blob/master/eBook/15.2.md
+	用 rpc 实现远程过程调用
+	https://github.com/unknwon/the-way-to-go_ZH_CN/blob/master/eBook/15.9.md
+	基于网络的通道 netchan
+	https://github.com/unknwon/the-way-to-go_ZH_CN/blob/master/eBook/15.10.md
+	与 websocket 通信
+	https://github.com/unknwon/the-way-to-go_ZH_CN/blob/master/eBook/15.11.md
+	常见的陷阱与错误
+	https://github.com/unknwon/the-way-to-go_ZH_CN/blob/master/eBook/16.0.md
+	逗号 ok 模式
+	https://github.com/unknwon/the-way-to-go_ZH_CN/blob/master/eBook/17.1.md
+	出于性能考虑的实用代码片段
+	https://github.com/unknwon/the-way-to-go_ZH_CN/blob/master/eBook/18.0.md
+	构建一个完整的应用程序（缩短网址应用web程序)
+	https://github.com/unknwon/the-way-to-go_ZH_CN/blob/master/eBook/19.1.md
