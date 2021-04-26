@@ -227,6 +227,8 @@ func slice() {
 	s6 := new([]int)		// 指针为空的切片(数组不存在)
 }
 
+// map下的元素不是变量，因此不能寻址,比如数组或者结构体
+// 所以如果要修改map中的变量的值，需要将其变成指针形式
 func Map() {
 	var m1 map[int]string
 	m2 := make(map[int]string)
