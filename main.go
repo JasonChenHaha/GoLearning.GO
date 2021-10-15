@@ -1,8 +1,13 @@
 package main
 
-type any interface{}
+import (
+	"fmt"
+)
 
 func main() {
-	var a any
-	b := a.(int)
+	var a map[int]int
+	a = nil
+	fmt.Println(len(a))
 }
+
+
