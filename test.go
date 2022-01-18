@@ -21,6 +21,10 @@ package main
 //	// float32, float64(尽可能地使用 float64，因为math包中所有有关数学运算的函数都会要求接收这个类型)
 //	// byte(uint8), rune(int32)
 //	// _(空白符)
+//	值类型
+//		int, float, bool, string, 数组, struct
+//	引用类型
+//		指针, slice, map, chan 接口
 //
 //	var a int = 0
 //	var b = 0
@@ -73,11 +77,13 @@ package main
 //	fmt.Printf("utf8格式字符 %U\n", 'a')
 //	fmt.Printf("地址 %p", &a)
 //	fmt.Printf("%v", myClass{a:1, b:2})
+//	fmt.Printf("获取变量的类型 %T, a)
 //}
 //
 //// 字符串
 //func handle_string() {
 //	// 在内存中，一个字符串实际上是一个双字结构，即一个指向实际数据的指针和记录字符串长度的整数
+	// string类型是值类型，它的默认值是空字符串，而非nil
 //	var str string = "abc"
 //	str2 := str[1:2]
 //	str2[0] = 'a'	// 替换字符串中的字符是非法的

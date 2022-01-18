@@ -24,6 +24,7 @@ Go语言傻瓜指南（主要参考Go语言中文网）
 	按照傻瓜教程一步步学习，碰到教程没有说明的函数查阅标准库文档
 		傻瓜教程http://tour.studygolang.com/basics/2
 		菜鸟教程https://www.runoob.com/go/go-tutorial.html
+				https://books.studygolang.com/advanced-go-programming-book/
 		标准库文档https://studygolang.com/pkgdoc
 		英文版（更完整）https://pkg.go.dev/std
 	傻瓜教程的最后给出了一些其他参考、指南、博客，可以进一步学习其中的
