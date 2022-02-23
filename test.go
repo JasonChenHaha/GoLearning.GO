@@ -63,7 +63,7 @@ func convert_type() {
 	str = string(s1)
 }
 
-// 打印
+// 格式化输出
 func format_print() {
 	a := 0
 	fmt.Printf("整数 %d\n", 1)
@@ -77,7 +77,8 @@ func format_print() {
 	fmt.Printf("utf8格式字符 %U\n", 'a')
 	fmt.Printf("地址 %p", &a)
 	fmt.Printf("%v", myClass{a:1, b:2})
-	fmt.Printf("获取变量的类型 %T, a)
+	fmt.Printf("获取变量的类型 %T", a)
+	fmt.Printf("中括号内代表取第几个参数解析 %[1]c, %[1]d", a)
 }
 
 // 字符串
@@ -409,6 +410,15 @@ func goroutine_channel() {
 	runtime.Goexit()
 }
 // ------- goroutine,channel ----------
+
+func panic_and_recover() {
+	defer func() {
+		if err := recover(); err != nil {
+			fmt.Println("recover from:", err)
+		}
+	}
+	panic("error")
+}
 
 func init() {
 	fmt.Println("在初始化包的时候执行，包的每个源文件都可以定义init函数，它们无序执行")
