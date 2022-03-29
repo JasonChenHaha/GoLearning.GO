@@ -420,6 +420,16 @@ func panic_and_recover() {
 	panic("error")
 }
 
+func handle_context()
+	ctx, cancel := context.WithCancel(context.Background())
+	go func(ctx context.Context) {
+		if <-ctx {
+			fmt.Println('cancel')
+		}
+	}(ctx)
+	cancel()
+end
+
 func init() {
 	fmt.Println("在初始化包的时候执行，包的每个源文件都可以定义init函数，它们无序执行")
 }
